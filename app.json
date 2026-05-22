@@ -1,0 +1,20 @@
+{
+  "name": "Lumière Shopping Mall API",
+  "description": "Shopping mall demo API (Express + MongoDB)",
+  "repository": "https://github.com/soyoungbaeca/vibecoding-shoppingmall-demo",
+  "keywords": ["node", "express", "mongodb"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/timanovsky/subdir-heroku-buildpack"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "PROJECT_PATH": {
+      "description": "Monorepo subdirectory containing package.json",
+      "value": "server"
+    }
+  }
+}
