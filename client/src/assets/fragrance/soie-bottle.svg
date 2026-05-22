@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 320" fill="none">
+  <defs>
+    <linearGradient id="soieGlass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="45%" stop-color="#2c5282"/>
+      <stop offset="100%" stop-color="#e8eef5" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="soieCap" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a365d"/>
+      <stop offset="100%" stop-color="#2b4c7e"/>
+    </linearGradient>
+  </defs>
+  <rect x="78" y="18" width="44" height="28" rx="4" fill="url(#soieCap)"/>
+  <rect x="86" y="44" width="28" height="10" rx="2" fill="#1a365d"/>
+  <path d="M62 54h76c8 0 14 6 14 14v200c0 22-18 40-40 40H88c-22 0-40-18-40-40V68c0-8 6-14 14-14z" fill="url(#soieGlass)" stroke="#2c5282" stroke-width="1.5"/>
+  <path d="M72 120 Q100 90 128 120" stroke="#fff" stroke-opacity="0.2" stroke-width="2" fill="none"/>
+</svg>

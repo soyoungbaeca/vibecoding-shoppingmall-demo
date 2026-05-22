@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 320" fill="none">
+  <defs>
+    <linearGradient id="youGlass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fce8ec" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#f5b8c4" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#e8a0b0" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="youCap" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e63946"/>
+      <stop offset="100%" stop-color="#c1121f"/>
+    </linearGradient>
+  </defs>
+  <rect x="78" y="18" width="44" height="28" rx="4" fill="url(#youCap)"/>
+  <rect x="86" y="44" width="28" height="10" rx="2" fill="#c1121f"/>
+  <path d="M62 54h76c8 0 14 6 14 14v200c0 22-18 40-40 40H88c-22 0-40-18-40-40V68c0-8 6-14 14-14z" fill="url(#youGlass)" stroke="#e8a0b0" stroke-width="1.5"/>
+  <ellipse cx="100" cy="200" rx="28" ry="36" fill="#fff" fill-opacity="0.35"/>
+</svg>

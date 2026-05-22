@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 320" fill="none">
+  <defs>
+    <linearGradient id="douxGlass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#faf6f0"/>
+      <stop offset="50%" stop-color="#f0e8dc"/>
+      <stop offset="100%" stop-color="#e8dfd0"/>
+    </linearGradient>
+    <linearGradient id="douxCap" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5f0e8"/>
+      <stop offset="100%" stop-color="#e8dfd0"/>
+    </linearGradient>
+  </defs>
+  <rect x="78" y="18" width="44" height="28" rx="4" fill="url(#douxCap)" stroke="#ddd5c8" stroke-width="1"/>
+  <rect x="86" y="44" width="28" height="10" rx="2" fill="#e8dfd0"/>
+  <path d="M62 54h76c8 0 14 6 14 14v200c0 22-18 40-40 40H88c-22 0-40-18-40-40V68c0-8 6-14 14-14z" fill="url(#douxGlass)" stroke="#ddd5c8" stroke-width="1.5"/>
+</svg>

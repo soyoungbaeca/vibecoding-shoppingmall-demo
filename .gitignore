@@ -1,0 +1,21 @@
+# Dependencies & build
+node_modules/
+dist/
+dist-ssr/
+
+# Secrets & local env
+.env
+.env.*
+!.env.example
+
+# Logs & OS
+*.log
+.DS_Store
+
+# Editor / IDE (optional local)
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Cursor (project rules stay in repo; local cache excluded if added later)
+.cursor/cache/
